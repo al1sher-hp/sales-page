@@ -1,0 +1,129 @@
+.section {
+  background: var(--paper-100);
+  padding-block: var(--space-3xl);
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.heading {
+  font-size: var(--step-3);
+}
+
+.badge {
+  font-size: var(--step--1);
+  font-weight: 700;
+  color: var(--teal-700);
+  background: var(--teal-50);
+  border: 1px solid var(--teal-100);
+  border-radius: 999px;
+  padding: 0.4em 1em;
+}
+
+.intro {
+  margin-block-start: var(--space-md);
+  font-size: var(--step-1);
+  color: var(--text-on-paper-muted);
+  max-width: 48ch;
+}
+
+.points {
+  display: grid;
+  gap: var(--space-md);
+  margin-block-start: var(--space-xl);
+}
+
+.point {
+  border-inline-start: 2px solid var(--teal-500);
+  padding-inline-start: var(--space-md);
+}
+
+.pointTitle {
+  font-size: var(--step-0);
+  font-weight: 600;
+  margin-block-end: var(--space-3xs);
+}
+
+.pointText {
+  color: var(--text-on-paper-muted);
+  line-height: 1.6;
+}
+
+.portfolio {
+  margin-block-start: var(--space-2xl);
+  padding-block-start: var(--space-xl);
+  border-top: 1px solid var(--border-on-paper);
+}
+
+.portfolioHeading {
+  font-size: var(--step-1);
+  color: var(--text-on-paper-muted);
+  font-weight: 600;
+  margin-block-end: var(--space-md);
+}
+
+.portfolioGrid {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.portfolioCard {
+  background: var(--paper-0);
+  border: 1px solid var(--border-on-paper);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.portfolioImage {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.portfolioPlaceholder {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xs);
+  background: repeating-linear-gradient(
+    135deg,
+    var(--paper-200),
+    var(--paper-200) 10px,
+    var(--paper-100) 10px,
+    var(--paper-100) 20px
+  );
+  color: var(--text-on-paper-muted);
+  font-size: var(--step--1);
+}
+
+.portfolioBody {
+  padding: var(--space-md);
+}
+
+.portfolioName {
+  font-weight: 600;
+  margin-block-end: var(--space-3xs);
+}
+
+.portfolioDesc {
+  color: var(--text-on-paper-muted);
+  font-size: var(--step--1);
+  line-height: 1.5;
+}
+
+@media (min-width: 780px) {
+  .points {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .portfolioGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

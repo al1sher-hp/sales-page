@@ -1,0 +1,108 @@
+.header {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline: 0;
+  z-index: 50;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  background: transparent;
+  transition: background-color 0.35s var(--ease-out), border-color 0.35s var(--ease-out), box-shadow 0.35s var(--ease-out);
+  border-bottom: 1px solid transparent;
+}
+
+.header.scrolled {
+  background: rgba(250, 248, 243, 0.86);
+  backdrop-filter: blur(10px) saturate(1.1);
+  -webkit-backdrop-filter: blur(10px) saturate(1.1);
+  border-bottom: 1px solid var(--border-on-paper);
+  box-shadow: var(--shadow-soft);
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+  font-family: var(--font-display);
+  font-size: var(--step--1);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text-on-ink);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.35s var(--ease-out);
+}
+
+.header.scrolled .brand {
+  color: var(--text-on-paper);
+}
+
+.nav {
+  display: none;
+}
+
+.cta {
+  flex-shrink: 0;
+  font-size: var(--step--1);
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--text-on-ink);
+  border: 1px solid var(--border-on-ink);
+  border-radius: 999px;
+  padding: 0.5em 1.1em;
+  transition: color 0.35s var(--ease-out), border-color 0.35s var(--ease-out), background-color 0.2s var(--ease-out);
+}
+
+.header.scrolled .cta {
+  color: var(--text-on-paper);
+  border-color: var(--border-on-paper);
+}
+
+.cta:hover {
+  background: var(--teal-500);
+  border-color: var(--teal-500);
+  color: var(--text-on-ink);
+}
+
+@media (min-width: 860px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav a {
+    font-size: var(--step--1);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-on-ink-muted);
+    white-space: nowrap;
+    transition: color 0.25s var(--ease-out);
+  }
+
+  .header.scrolled .nav a {
+    color: var(--text-on-paper-muted);
+  }
+
+  .nav a:hover {
+    color: var(--text-on-ink);
+  }
+
+  .header.scrolled .nav a:hover {
+    color: var(--text-on-paper);
+  }
+}

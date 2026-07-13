@@ -1,0 +1,36 @@
+.phone {
+  position: relative;
+  width: min(280px, 72vw);
+  aspect-ratio: 9 / 19.5;
+  background: linear-gradient(165deg, #263230, #131b19);
+  border-radius: 42px;
+  padding: 12px;
+  box-shadow:
+    0 1px 1px rgba(255, 255, 255, 0.06) inset,
+    0 30px 60px -24px rgba(6, 14, 12, 0.55),
+    0 12px 24px -16px rgba(6, 14, 12, 0.4);
+  flex-shrink: 0;
+}
+
+.notch {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 34%;
+  height: 22px;
+  background: #131b19;
+  border-radius: 0 0 14px 14px;
+  z-index: 2;
+}
+
+.screen {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: var(--paper-0);
+  border-radius: 30px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
