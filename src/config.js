@@ -4,7 +4,7 @@ export const config = {
   NAME: 'Alisher',
 
   // Tajriba ko'rsatkichi, masalan: "5 yildan beri" yoki "30+ loyiha".
-  YEARS_OR_PROJECTS: '1 yildan ortiq',
+  YEARS_OR_PROJECTS: '1 yildan ortiq tajriba',
 
   // Bog'lanish uchun telefon raqami, masalan: +998 90 123 45 67
   PHONE: '+998 94 541 33 83',
