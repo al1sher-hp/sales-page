@@ -30,7 +30,7 @@ export default function Header() {
             <path d="M7 10.5H19" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" />
             <path d="M9.5 15.2L11.7 17.4L16.7 12.4" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
-          <span>Yozilish tizimi</span>
+          <span>Navbat tizimi</span>
         </a>
 
         <nav className={styles.nav} aria-label="Bo'limlar bo'yicha navigatsiya">

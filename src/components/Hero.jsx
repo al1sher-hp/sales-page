@@ -18,11 +18,11 @@ function NightNotificationMockup() {
         </div>
         <div className={styles.notifBody}>
           <div className={styles.notifTitle}>
-            <span>Yozilish tizimi</span>
+            <span>Navbat tizimi</span>
             <span className={styles.notifTime}>hozir</span>
           </div>
           <p className={styles.notifText}>
-            🔔 Yangi yozilish: <strong>Malika Y.</strong> — ertaga 14:00, Manikyur
+            🔔 Yangi navbat: <strong>Malika Y.</strong> — ertaga 14:00, Manikyur
           </p>
         </div>
       </div>
@@ -36,13 +36,13 @@ export default function Hero() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.copy}>
           <Reveal as="p" className={styles.kicker}>
-            Onlayn yozilish · 24/7 ishlaydi
+            Onlayn navbat · 24/7 ishlaydi
           </Reveal>
           <Reveal as="h1" delay={80} className={styles.headline}>
-            Salonlar va klinikalar uchun onlayn yozilish tizimi
+            Salonlar va klinikalar uchun onlayn navbat tizimi
           </Reveal>
           <Reveal as="p" delay={160} className={styles.subline}>
-            Mijozlaringiz kechasi ham yozila oladi. Siz esa hech bir qo'ng'iroqni o'tkazib yubormaysiz.
+            Mijozlaringiz kechasi ham navbat oladi. Siz esa hech bir qo'ng'iroqni o'tkazib yubormaysiz.
           </Reveal>
           <Reveal delay={240} className={styles.actions}>
             <a href={config.DEMO_URL} className={styles.primaryBtn}>

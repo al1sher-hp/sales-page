@@ -10,11 +10,11 @@ const Check = () => (
 
 const TIERS = [
   {
-    name: 'Yozilish tizimi',
+    name: 'Navbat tizimi',
     price: '4.5 mln so\'m',
     period: "+ 400 ming so'm / oy",
-    features: ['Sayt', 'Onlayn yozilish', "Telegram'ga xabar", 'Admin panel', 'Hosting va texnik xizmat'],
-    cta: "Telegram'da buyurtma berish",
+    features: ['Sayt', 'Onlayn navbat', "Telegram'ga xabar", 'Admin panel', 'Hosting va texnik xizmat'],
+    cta: "Telegram'da yozish",
     href: config.TELEGRAM_URL,
   },
   {
@@ -22,11 +22,11 @@ const TIERS = [
     price: '7 mln so\'m',
     period: "+ 600 ming so'm / oy",
     features: [
-      'Yozilish tizimidagi hammasi',
+      'Navbat tizimidagi hammasi',
       "Instagram va Telegram'da savollarga avtomatik javob beruvchi AI",
       "O'zbek va rus tillarida ishlaydi",
     ],
-    cta: "Telegram'da buyurtma berish",
+    cta: "Telegram'da yozish",
     href: config.TELEGRAM_URL,
     highlight: true,
     badge: "Ko'p tanlanadi",

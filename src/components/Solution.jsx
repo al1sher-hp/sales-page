@@ -34,7 +34,7 @@ function PickerScreen() {
   const slots = ['10:00', '11:30', '13:00', '14:00', '16:00', '17:30']
   return (
     <div className={styles.screenBody}>
-      <div className={styles.screenHeader}>Ustani va vaqtni tanlang</div>
+      <div className={styles.screenHeader}>Mutaxassisni va vaqtni tanlang</div>
       <div className={styles.masters}>
         {masters.map((m, i) => (
           <div key={m} className={`${styles.masterChip} ${i === 0 ? styles.masterChipActive : ''}`}>
@@ -71,16 +71,16 @@ function TelegramScreen() {
           </svg>
         </span>
         <div>
-          <div className={styles.tgName}>Yozilish tizimi</div>
+          <div className={styles.tgName}>Navbat tizimi</div>
           <div className={styles.tgStatus}>bot</div>
         </div>
       </div>
       <div className={styles.tgBody}>
         <div className={styles.tgBubble}>
-          <p>✅ Yangi yozilish!</p>
+          <p>✅ Yangi navbat!</p>
           <p><strong>Malika Y.</strong></p>
           <p>Manikyur — ertaga, 14:00</p>
-          <p>Usta: Dilnoza</p>
+          <p>Mutaxassis: Dilnoza</p>
           <span className={styles.tgTime}>hozir</span>
         </div>
       </div>
@@ -96,7 +96,7 @@ const STEPS = [
   },
   {
     n: '2',
-    title: "Ustani va bo'sh vaqtni tanlaydi",
+    title: "Mutaxassisni va bo'sh vaqtni tanlaydi",
     screen: <PickerScreen />,
   },
   {

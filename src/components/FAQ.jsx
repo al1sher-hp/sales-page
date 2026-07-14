@@ -5,7 +5,7 @@ import styles from './FAQ.module.css'
 const ITEMS = [
   {
     q: 'Oddiy sayt bilan farqi nima?',
-    a: "Oddiy sayt — vitrina: unda ma'lumot bor, lekin u sizga mijoz olib kelmaydi. Bu esa ishlaydigan tizim: mijoz saytga kirib, xizmatni tanlaydi, o'zi yoziladi va siz haqida shu zahoti Telegram'ga xabar keladi. Sayt ko'rsatish uchun, tizim esa ishlash uchun.",
+    a: "Oddiy sayt — vitrina: unda ma'lumot bor, lekin u sizga mijoz olib kelmaydi. Bu esa ishlaydigan tizim: mijoz saytga kirib, xizmatni tanlaydi, o'zi yoziladi va sizga shu zahoti Telegram'ga xabar keladi. Sayt ko'rsatish uchun, tizim esa ishlash uchun.",
   },
   {
     q: 'Nega tanishimga yoki jiyanimga qildirmasligim kerak?',
@@ -17,11 +17,11 @@ const ITEMS = [
   },
   {
     q: "Instagram'im bor-ku, nimaga bu kerak?",
-    a: "Instagram — ajoyib reklama kanali, lekin yozilish uchun mo'ljallanmagan. DM'dagi xabarlar orasida yozilishlar yo'qolib, aralashib ketadi. Bu tizim aynan shu muammoni hal qiladi: mijoz tartibli yoziladi, siz esa hech narsani qo'ldan boy bermaysiz.",
+    a: "Instagram — ajoyib reklama kanali, lekin navbatga yozilish uchun mo'ljallanmagan. DM'dagi xabarlar orasida navbatlar yo'qolib, aralashib ketadi. Bu tizim aynan shu muammoni hal qiladi: mijoz tartibli yoziladi, siz esa hech narsani qo'ldan boy bermaysiz.",
   },
   {
     q: "Oylik to'lovni to'xtatsam nima bo'ladi?",
-    a: "Tizim faol bo'lishni to'xtatadi. Oylik to'lovga hosting, uzluksiz ishlash kafolati va texnik xizmat kiradi — shuning uchun to'lov to'xtasa, tizim ham ishlamay qoladi. Buni oldindan ochiq aytib qo'yishni afzal ko'raman.",
+    a: "Tizim ishlashdan to'xtaydi. Oylik to'lovga hosting, uzluksiz ishlash kafolati va texnik xizmat kiradi — shuning uchun to'lov to'xtasa, tizim ham ishlamay qoladi. Buni oldindan ochiq aytib qo'yishni afzal ko'raman.",
   },
 ]
 

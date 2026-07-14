@@ -35,7 +35,7 @@ const PAINS = [
         />
       </svg>
     ),
-    title: "Instagram DM'da yozilishlar aralashib ketadi",
+    title: "Instagram DM'da navbatlar aralashib ketadi",
     text: '"Ertaga bo\'sh joy bormi?" degan xabarlar orasida eskisi tepaga chiqib ketadi, javob kechikadi yoki butunlay unutiladi.',
   },
   {
@@ -47,7 +47,7 @@ const PAINS = [
       </svg>
     ),
     title: '"Keyinroq yozaman" — va unutadi',
-    text: "Mijoz sahifangizni yopadi, boshqa ish bilan band bo'ladi. Yozilish sodir bo'lmaydi, siz esa undan umuman xabar topmaysiz.",
+    text: "Mijoz sahifangizni yopadi, boshqa ish bilan band bo'ladi. Mijoz esa indamay boshqa joyga ketadi — siz bundan xabar ham topmaysiz.",
   },
 ]
 

@@ -33,7 +33,7 @@ export default function WhyMe() {
         </div>
 
         <Reveal delay={120} as="p" className={styles.intro}>
-          Men — {config.NAME}. Toshkentda kichik va o'rta bizneslar uchun onlayn yozilish tizimlari yarataman.
+          Men — {config.NAME}. Toshkentda kichik va o'rta bizneslar uchun onlayn navbat tizimlari yarataman.
         </Reveal>
 
         <div className={styles.points}>
